@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowJs": true,          // <-- VERY IMPORTANT
+    "checkJs": false,         // <-- To avoid type-check errors
+    "jsx": "react-jsx"        // <-- To support JSX (React 17+ style)
+  },
+  "include": ["src"]          // <-- Only process src folder
+}
